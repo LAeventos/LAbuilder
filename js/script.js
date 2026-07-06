@@ -133,12 +133,12 @@ steps.forEach(id => {
   if (section) observer.observe(section);
 });
 
-whatsappBtn.addEventListener('click', () => {
+whatsappBtn.addEventListener("click", () => {
   if (!(state.template && state.color)) return;
 
   const numeroWhatsapp = "5561998842583";
 
-const mensagem = `🚀 Novo pedido - LA Builder
+  const mensagem = `🚀 Novo pedido - LA Builder
 
 Olá!
 
@@ -154,5 +154,6 @@ Gostaria de continuar o atendimento e enviar minha logo, textos e imagens pelo W
 
 Obrigado!`;
 
-window.location.href =
-`https://wa.me/${numeroWhatsapp}?text=${encodeURIComponent(mensagem)}`;
+  window.location.href =
+    `https://wa.me/${numeroWhatsapp}?text=${encodeURIComponent(mensagem)}`;
+});
