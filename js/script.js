@@ -136,14 +136,12 @@ steps.forEach(id => {
 whatsappBtn.addEventListener("click", () => {
   if (!(state.template && state.color)) return;
 
-  const numeroWhatsapp = "5561998842583";
+  const numeroWhatsapp = "5511916509898";
 
   const mensagem = `🚀 Novo pedido - LA Builder
 
 Olá!
-
-Tenho interesse na criação de uma Landing Page.
-
+Aqui está a escolha da minha landing page.
 📌 Modelo visual escolhido:
 ${state.template}
 
@@ -151,8 +149,7 @@ ${state.template}
 ${state.color}
 
 Gostaria de continuar o atendimento e enviar minha logo, textos e imagens pelo WhatsApp.
-
-Obrigado!`;
+Obrigado!!`;
 
   window.location.href =
     `https://wa.me/${numeroWhatsapp}?text=${encodeURIComponent(mensagem)}`;
