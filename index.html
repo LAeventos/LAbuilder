@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LA Builder | Configurador de Landing Pages</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="page-bg"></div>
+
+  <header class="top-progress" aria-label="Progresso do configurador">
+    <div class="progress-track">
+      <button class="progress-step active" data-target="modelos" type="button">
+        <span>1</span>
+        <small>Modelo</small>
+      </button>
+      <button class="progress-step" data-target="cores" type="button">
+        <span>2</span>
+        <small>Cor</small>
+      </button>
+      <button class="progress-step" data-target="personalizacao" type="button">
+        <span>3</span>
+        <small>Dados</small>
+      </button>
+      <button class="progress-step" data-target="preview" type="button">
+        <span>4</span>
+        <small>Prévia</small>
+      </button>
+      <button class="progress-step" data-target="resumo" type="button">
+        <span>5</span>
+        <small>WhatsApp</small>
+      </button>
+    </div>
+  </header>
+
+  <main class="app-shell">
+    <section class="hero" id="inicio">
+      <div class="logo-area">
+        <div class="brand-mark">LA</div>
+        <p class="brand-kicker">LA Builder</p>
+      </div>
+
+      <h1>Configure sua Landing Page</h1>
+      <p class="hero-text">
+        Escolha um modelo visual, personalize a cor principal e visualize uma prévia do seu site antes de chamar no WhatsApp.
+      </p>
+      <button class="primary-btn" type="button" data-target="modelos">Começar agora</button>
+    </section>
+
+    <section class="config-section" id="modelos">
+      <div class="section-heading">
+        <span class="step-label">Etapa 1</span>
+        <h2>Escolha o modelo visual</h2>
+        <p>Selecione pela aparência. Todos os modelos possuem a mesma estrutura base e podem ser personalizados com suas cores, logo, textos e imagens.</p>
+        <div class="notice-pill">O preço é o mesmo para todos os modelos</div>
+      </div>
+
+      <div class="template-grid" aria-label="Modelos de landing page">
+        <article class="template-card" data-template="Clean" data-layout="clean" tabindex="0">
+          <div class="template-preview mini mini-clean">
+            <div class="mini-nav"><span></span><span></span><span></span></div>
+            <div class="mini-hero"><b></b><p></p><button></button></div>
+            <div class="mini-services"><i></i><i></i><i></i></div>
+            <div class="mini-blocks"><span></span><span></span></div>
+          </div>
+          <div class="template-actions">
+            <button class="select-template" type="button">Escolher este modelo</button>
+          </div>
+        </article>
+
+        <article class="template-card" data-template="Premium Escuro" data-layout="dark" tabindex="0">
+          <div class="template-preview mini mini-dark">
+            <div class="mini-nav"><span></span><span></span><span></span></div>
+            <div class="mini-hero"><b></b><p></p><button></button></div>
+            <div class="mini-services"><i></i><i></i><i></i></div>
+            <div class="mini-blocks"><span></span><span></span></div>
+          </div>
+          <div class="template-actions">
+            <button class="select-template" type="button">Escolher este modelo</button>
+          </div>
+        </article>
+
+        <article class="template-card" data-template="Corporativo Azul" data-layout="corporate" tabindex="0">
+          <div class="template-preview mini mini-corporate">
+            <div class="mini-nav"><span></span><span></span><span></span></div>
+            <div class="mini-hero"><b></b><p></p><button></button></div>
+            <div class="mini-services"><i></i><i></i><i></i></div>
+            <div class="mini-blocks"><span></span><span></span></div>
+          </div>
+          <div class="template-actions">
+            <button class="select-template" type="button">Escolher este modelo</button>
+          </div>
+        </article>
+
+        <article class="template-card" data-template="Neon Moderno" data-layout="neon" tabindex="0">
+          <div class="template-preview mini mini-neon">
+            <div class="mini-nav"><span></span><span></span><span></span></div>
+            <div class="mini-hero"><b></b><p></p><button></button></div>
+            <div class="mini-services"><i></i><i></i><i></i></div>
+            <div class="mini-blocks"><span></span><span></span></div>
+          </div>
+          <div class="template-actions">
+            <button class="select-template" type="button">Escolher este modelo</button>
+          </div>
+        </article>
+
+        <article class="template-card" data-template="Natural" data-layout="natural" tabindex="0">
+          <div class="template-preview mini mini-natural">
+            <div class="mini-nav"><span></span><span></span><span></span></div>
+            <div class="mini-hero"><b></b><p></p><button></button></div>
+            <div class="mini-services"><i></i><i></i><i></i></div>
+            <div class="mini-blocks"><span></span><span></span></div>
+          </div>
+          <div class="template-actions">
+            <button class="select-template" type="button">Escolher este modelo</button>
+          </div>
+        </article>
+
+        <article class="template-card" data-template="Criativo Roxo" data-layout="creative" tabindex="0">
+          <div class="template-preview mini mini-creative">
+            <div class="mini-nav"><span></span><span></span><span></span></div>
+            <div class="mini-hero"><b></b><p></p><button></button></div>
+            <div class="mini-services"><i></i><i></i><i></i></div>
+            <div class="mini-blocks"><span></span><span></span></div>
+          </div>
+          <div class="template-actions">
+            <button class="select-template" type="button">Escolher este modelo</button>
+          </div>
+        </article>
+
+        <article class="template-card" data-template="Comercial Vermelho" data-layout="sales" tabindex="0">
+          <div class="template-preview mini mini-sales">
+            <div class="mini-nav"><span></span><span></span><span></span></div>
+            <div class="mini-hero"><b></b><p></p><button></button></div>
+            <div class="mini-services"><i></i><i></i><i></i></div>
+            <div class="mini-blocks"><span></span><span></span></div>
+          </div>
+          <div class="template-actions">
+            <button class="select-template" type="button">Escolher este modelo</button>
+          </div>
+        </article>
+
+        <article class="template-card" data-template="Luxo Minimalista" data-layout="luxury" tabindex="0">
+          <div class="template-preview mini mini-luxury">
+            <div class="mini-nav"><span></span><span></span><span></span></div>
+            <div class="mini-hero"><b></b><p></p><button></button></div>
+            <div class="mini-services"><i></i><i></i><i></i></div>
+            <div class="mini-blocks"><span></span><span></span></div>
+          </div>
+          <div class="template-actions">
+            <button class="select-template" type="button">Escolher este modelo</button>
+          </div>
+        </article>
+      </div>
+
+      <p class="helper-text locked-text">Selecione um modelo para continuar</p>
+    </section>
+
+    <section class="config-section locked" id="cores">
+      <div class="section-heading">
+        <span class="step-label">Etapa 2</span>
+        <h2>Escolha a cor principal</h2>
+        <p>Essa cor será usada nos botões, detalhes, destaques e elementos visuais da sua Landing Page.</p>
+      </div>
+
+      <div class="color-grid" aria-label="Paletas de cores">
+        <button class="color-card" type="button" data-color="Azul" data-hex="#2563ff"><span style="--swatch:#2563ff"></span>Azul</button>
+        <button class="color-card" type="button" data-color="Preto" data-hex="#111827"><span style="--swatch:#111827"></span>Preto</button>
+        <button class="color-card" type="button" data-color="Roxo" data-hex="#8b5cf6"><span style="--swatch:#8b5cf6"></span>Roxo</button>
+        <button class="color-card" type="button" data-color="Verde" data-hex="#22c55e"><span style="--swatch:#22c55e"></span>Verde</button>
+        <button class="color-card" type="button" data-color="Vermelho" data-hex="#ef233c"><span style="--swatch:#ef233c"></span>Vermelho</button>
+        <button class="color-card" type="button" data-color="Laranja" data-hex="#f97316"><span style="--swatch:#f97316"></span>Laranja</button>
+        <button class="color-card" type="button" data-color="Dourado" data-hex="#d4af37"><span style="--swatch:#d4af37"></span>Dourado</button>
+        <button class="color-card" type="button" data-color="Rosa" data-hex="#ec4899"><span style="--swatch:#ec4899"></span>Rosa</button>
+      </div>
+
+      <p class="helper-text locked-text">Escolha uma cor para liberar a próxima etapa</p>
+    </section>
+
+    <section class="config-section locked" id="personalizacao">
+      <div class="section-heading">
+        <span class="step-label">Etapa 3</span>
+        <h2>Os detalhes ficam para o WhatsApp</h2>
+        <p>Para deixar o processo rápido, você não precisa preencher um formulário grande agora.</p>
+      </div>
+
+      <div class="info-card">
+        <h3>Depois do envio, vamos pedir pelo WhatsApp:</h3>
+        <ul>
+          <li>Sua logo ou referência de identidade visual</li>
+          <li>Fotos, textos e informações da empresa</li>
+          <li>Instagram, WhatsApp, endereço e demais contatos</li>
+          <li>Ajustes finais para deixar a página com a cara do seu negócio</li>
+        </ul>
+        <button class="secondary-btn" type="button" data-target="preview">Ver prévia do projeto</button>
+      </div>
+    </section>
+
+    <section class="config-section locked" id="preview">
+      <div class="section-heading">
+        <span class="step-label">Etapa 4</span>
+        <h2>Visualize sua Landing</h2>
+        <p>Essa é uma simulação simples do modelo escolhido com a cor selecionada, mostrando onde entram sua logo, imagens, textos e dados.</p>
+      </div>
+
+      <div class="browser-preview" id="browserPreview">
+        <div class="fake-browser-bar">
+          <div class="browser-dots"><span></span><span></span><span></span></div>
+          <div class="fake-url">🔒 landing-preview.laeventos.com</div>
+        </div>
+
+        <div class="landing-preview" id="landingPreview">
+          <header class="preview-header">
+            <div class="logo-placeholder">SUA LOGO</div>
+            <nav><span></span><span></span><span></span></nav>
+          </header>
+
+          <section class="preview-hero">
+            <div class="preview-copy">
+              <p class="preview-tag">Sua empresa</p>
+              <h3>Seu título principal aqui</h3>
+              <p>Texto de apresentação da sua empresa, serviço ou produto.</p>
+              <button type="button">Botão de ação</button>
+            </div>
+            <div class="image-placeholder">Sua imagem</div>
+          </section>
+
+          <section class="preview-services">
+            <div><b></b><p>Serviço 1</p></div>
+            <div><b></b><p>Serviço 2</p></div>
+            <div><b></b><p>Serviço 3</p></div>
+          </section>
+
+          <section class="preview-about">
+            <div></div>
+            <div>
+              <h4>Sobre sua empresa</h4>
+              <p>Espaço para informações, diferenciais e benefícios.</p>
+            </div>
+          </section>
+
+          <footer class="preview-footer">
+            <span>Contato</span>
+            <span>Instagram</span>
+            <span>WhatsApp</span>
+          </footer>
+        </div>
+      </div>
+    </section>
+
+    <section class="config-section locked" id="resumo">
+      <div class="section-heading">
+        <span class="step-label">Etapa 5</span>
+        <h2>Resumo do LA Builder</h2>
+        <p>Confira sua escolha e envie para continuarmos o atendimento pelo WhatsApp.</p>
+      </div>
+
+      <div class="summary-card">
+        <div>
+          <span>Modelo visual</span>
+          <strong id="summaryTemplate">—</strong>
+        </div>
+        <div>
+          <span>Cor principal</span>
+          <strong id="summaryColor">—</strong>
+        </div>
+      </div>
+
+      <p class="summary-note">As informações da empresa serão solicitadas diretamente pelo WhatsApp para evitar formulário longo.</p>
+
+      <button class="whatsapp-btn" id="whatsappBtn" type="button" disabled>
+        Solicitar orçamento pelo WhatsApp
+      </button>
+    </section>
+
+    <footer class="site-footer">
+      <p>© 2026 LA Builder • Desenvolvido pela LA Eventos</p>
+    </footer>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
