@@ -140,7 +140,7 @@ whatsappBtn.addEventListener('click', () => {
     `Modelo visual escolhido: ${state.template}%0A` +
     `Cor principal: ${state.color}%0A%0A` +
     `Gostaria de continuar o atendimento e enviar os detalhes pelo WhatsApp.`;
-  const numeroWhatsapp = "5561998842583";]
+  const numeroWhatsapp = "5511916509898";]
   let mensagem = `🚀 Novo pedido - LA Builder
 
 Olá!
