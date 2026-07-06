@@ -140,6 +140,19 @@ whatsappBtn.addEventListener('click', () => {
     `Modelo visual escolhido: ${state.template}%0A` +
     `Cor principal: ${state.color}%0A%0A` +
     `Gostaria de continuar o atendimento e enviar os detalhes pelo WhatsApp.`;
+  const numeroWhatsapp = "5561998842583";]
+  let mensagem = `🚀 Novo pedido - LA Builder
 
-  window.location.href = `https://wa.me/${whatsappNumber}?text=${mensagem}`;
+Olá!
+Tenho interesse na criação de uma Landing Page.
+
+📌 Modelo escolhido:
+${modeloSelecionado}
+
+🎨 Cor escolhida:
+${corSelecionada}
+
+Gostaria de conversar sobre a personalização da Landing e enviar minha logo, textos e imagens.
+Obrigado!`;
+  window.location.href = `https://wa.me/${numeroWhatsapp}?text=${encodeURIComponent(mensagem)}`;
 });
