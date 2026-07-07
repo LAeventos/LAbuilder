@@ -22,8 +22,6 @@ const state = {
   instagram: '',
   notes: ''
 };
-
-const whatsappNumber = '5511950358430';
 const steps = ['modelos', 'cores', 'logo', 'frases', 'personalizacao', 'preview', 'resumo'];
 
 const templateCards = document.querySelectorAll('.template-card');
